@@ -1,0 +1,8 @@
+การทำให้ รูปภาพสามารถลิ้งไปที่อื่นได้
+{
+  import {Link} from "react-router-dom"
+
+ <Link to="/PageB/ModalText">  
+         <img className="IconChat" src='./ICOchat.png' alt='value'/>
+ </Link> 
+}

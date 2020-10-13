@@ -1,0 +1,10 @@
+ขั้นตอนที่ 1 
+npm install react-html-table-to-excel --save
+ขั้นตอนที่ 2
+import ReactToExcel from "react-html-table-to-excel";
+ขั้นตอนที่ 3
+-สร้างตาราง กำหนด ID เช่น  <table id="gotoexcel"></table>
+-สร้าง <ReactToExcel
+        table="gotoexcel"          //กำหนดตารางที่ต้องการดาวโหลด    
+        filename="excelfile"        //ชื่อไฟล์ที่คนดาวโหลดจะเห็น        
+      ></ReactToExcel>

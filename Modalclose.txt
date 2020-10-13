@@ -1,0 +1,15 @@
+const [closee, setclosee] = React.useState("");
+
+
+
+ <img
+                    className={`ButtonCloseModal`}
+                    src="./closeModal.png"
+                    
+
+                <div 
+                    style={{ visibility: `${closee}` }}>
+                    onClick={() => {
+                      setclosee("hidden");
+                    }}
+                  </div>
